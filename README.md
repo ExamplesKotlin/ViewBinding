@@ -14,7 +14,11 @@ android {
         jvmTarget = '1.8'
     }
     
-    viewBinding { enabled = true } // 👈🏽
+//     viewBinding { enabled = true } // Deprecated
+
+    buildFeatures {
+        viewBinding = true   //  👈🏽
+    }
 
 }
 
