@@ -36,6 +36,8 @@ EL MainActivity quedaria asi:
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // From Here 👇🏼
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         
